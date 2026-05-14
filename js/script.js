@@ -1,7 +1,7 @@
 /* =========================================
    State
    ========================================= */
-let todos = JSON.parse(localStorage.getItem('priorify_todos')) || [];
+let todos = JSON.parse(localStorage.getItem('priorme_todos')) || [];
 let currentView  = 'week';
 let currentFilter = 'all';
 let currentSort  = 'date-asc';
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Restore saved theme
-    if (localStorage.getItem('priorify_theme') === 'light') {
+    if (localStorage.getItem('priorme_theme') === 'light') {
         document.body.classList.add('light');
         updateThemeIcon(true);
     }
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
    ========================================= */
 function toggleTheme() {
     const isLight = document.body.classList.toggle('light');
-    localStorage.setItem('priorify_theme', isLight ? 'light' : 'dark');
+    localStorage.setItem('priorme_theme', isLight ? 'light' : 'dark');
     updateThemeIcon(isLight);
 }
 
@@ -838,7 +838,7 @@ function handleFormSubmit(e) {
 /* =========================================
    Persistence
    ========================================= */
-function save() { localStorage.setItem('priorify_todos', JSON.stringify(todos)); }
+function save() { localStorage.setItem('priorme_todos', JSON.stringify(todos)); }
 
 /* =========================================
    Helpers
