@@ -12,7 +12,7 @@ A lightweight, responsive, and persistent Task Manager application built using *
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 ## 📸 Screenshots
-![Tampilan Aplikasi Priorme](image/Priorme-screenshot.png)
+![Tampilan Aplikasi Priorme](image/priorme-screenshot.png)
 
 ## ✨ Features
 
