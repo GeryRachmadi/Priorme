@@ -1,4 +1,4 @@
-# 📝 Priorify - Simple To-Do List App
+# 📝 Priorme - Simple To-Do List App
 
 > **Mini Project for Software Engineering Coding Camp (19 Jan 2026) by RevoU**
 
@@ -6,13 +6,13 @@ A lightweight, responsive, and persistent Task Manager application built using *
 
 👇 Give it a try!
 
-🔗 [Click this link](https://geryrachmadi.github.io/Priorify/)
+🔗 [Click this link](https://geryrachmadi.github.io/Priorme/)
 
 ![Project Status](https://img.shields.io/badge/Status-Completed-success)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 ## 📸 Screenshots
-![Tampilan Aplikasi Priorify](image/priorify-screenshot.png)
+![Tampilan Aplikasi Priorme](image/Priorme-screenshot.png)
 
 ## ✨ Features
 
@@ -51,7 +51,7 @@ CodingCamp-19Jan26-Geresidi/
 ├── js/
 │   └── script.js       # Logic and functionality
 ├── image/
-│   └── priorify-screenshot.png # Web-app Display Screenshot
+│   └── Priorme-screenshot.png # Web-app Display Screenshot
 └── README.md           # Project documentation
 ```
 
